@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+002.py	../LeetcodePython/002.py	1;"	kind:file	line:1
+003.py	../LeetcodePython/003.py	1;"	kind:file	line:1
+021.py	../LeetcodePython/021.py	1;"	kind:file	line:1
+026.py	../LeetcodePython/026.py	1;"	kind:file	line:1
+027.py	../LeetcodePython/027.py	1;"	kind:file	line:1
+028.py	../LeetcodePython/028.py	1;"	kind:file	line:1
+035.py	../LeetcodePython/035.py	1;"	kind:file	line:1
+038.py	../LeetcodePython/038.py	1;"	kind:file	line:1
+053.py	../LeetcodePython/053.py	1;"	kind:file	line:1
+101.py	../LeetcodePython/101.py	1;"	kind:file	line:1
+368.py	../LeetcodePython/368.py	1;"	kind:file	line:1
+ListNode	../LeetcodePython/021.py	/^class ListNode(object):$/;"	kind:class	line:2
+Solution	../LeetcodePython/003.py	/^class Solution(object):$/;"	kind:class	line:4
+Solution	../LeetcodePython/021.py	/^class Solution(object):$/;"	kind:class	line:8
+Solution	../LeetcodePython/026.py	/^class Solution(object):$/;"	kind:class	line:1
+Solution	../LeetcodePython/027.py	/^class Solution(object):$/;"	kind:class	line:1
+Solution	../LeetcodePython/028.py	/^class Solution(object):$/;"	kind:class	line:1
+Solution	../LeetcodePython/035.py	/^class Solution(object):$/;"	kind:class	line:17
+Solution	../LeetcodePython/053.py	/^class Solution(object):$/;"	kind:class	line:1
+Solution	../LeetcodePython/101.py	/^class Solution(object):$/;"	kind:class	line:8
+Solution	../LeetcodePython/368.py	/^class Solution(object):$/;"	kind:class	line:1
+Solution2	../LeetcodePython/368.py	/^class Solution2(object):$/;"	kind:class	line:24
+__init__	../LeetcodePython/021.py	/^    def __init__(self, x):$/;"	kind:member	line:3
+a	../LeetcodePython/003.py	/^a = Solution()$/;"	kind:variable	line:21
+a	../LeetcodePython/021.py	/^a = Solution()$/;"	kind:variable	line:32
+a	../LeetcodePython/026.py	/^a = Solution()$/;"	kind:variable	line:17
+a	../LeetcodePython/027.py	/^a = Solution()$/;"	kind:variable	line:19
+a	../LeetcodePython/028.py	/^a = Solution()$/;"	kind:variable	line:29
+a	../LeetcodePython/035.py	/^a = Solution()$/;"	kind:variable	line:39
+a	../LeetcodePython/053.py	/^a = Solution()$/;"	kind:variable	line:20
+a	../LeetcodePython/368.py	/^a = Solution()$/;"	kind:variable	line:39
+isSym	../LeetcodePython/101.py	/^    def isSym(self, p, q):$/;"	kind:member	line:9
+isSymmetric	../LeetcodePython/101.py	/^    def isSymmetric(self, root):$/;"	kind:member	line:17
+j	../LeetcodePython/027.py	/^j = a.removeElement(n, 3)$/;"	kind:variable	line:21
+largestDivisibleSubset	../LeetcodePython/368.py	/^    def largestDivisibleSubset(self, nums):$/;"	kind:member	line:2
+largestDivisibleSubset	../LeetcodePython/368.py	/^    def largestDivisibleSubset(self, nums):$/;"	kind:member	line:25
+lengthOfLongestSubstring	../LeetcodePython/003.py	/^    def lengthOfLongestSubstring(self, s):$/;"	kind:member	line:5
+m	../LeetcodePython/028.py	/^m = a.strStr(s, t)$/;"	kind:variable	line:32
+maxSubArray	../LeetcodePython/053.py	/^    def maxSubArray(self, nums):$/;"	kind:member	line:2
+mergeTwoLists	../LeetcodePython/021.py	/^    def mergeTwoLists(self, l1, l2):$/;"	kind:member	line:9
+n	../LeetcodePython/026.py	/^n = [1, 1, 2, 3, 3, 3, 4, 5]$/;"	kind:variable	line:18
+n	../LeetcodePython/027.py	/^n = [2, 3, 3, 4, 6, 3, 4, 5, 6, 2, 2]$/;"	kind:variable	line:20
+n	../LeetcodePython/035.py	/^n = [1, 2, 3, 6, 7]$/;"	kind:variable	line:40
+nums	../LeetcodePython/053.py	/^nums = [-2, 1, -3, 4, -1, 2]$/;"	kind:variable	line:21
+nums	../LeetcodePython/368.py	/^nums = [1, 2, 3, 4, 8]$/;"	kind:variable	line:40
+removeDuplicates	../LeetcodePython/026.py	/^    def removeDuplicates(self, nums):$/;"	kind:member	line:2
+removeElement	../LeetcodePython/027.py	/^    def removeElement(self, nums, val):$/;"	kind:member	line:2
+s	../LeetcodePython/003.py	/^s = "pwwkew"$/;"	kind:variable	line:22
+s	../LeetcodePython/028.py	/^s = "HelloWorld"$/;"	kind:variable	line:30
+searchInsert	../LeetcodePython/035.py	/^    def searchInsert(self, nums, target):$/;"	kind:member	line:18
+strStr	../LeetcodePython/028.py	/^    def strStr(self, haystack, needle):$/;"	kind:member	line:2
+t	../LeetcodePython/028.py	/^t = "oW"$/;"	kind:variable	line:31
+t	../LeetcodePython/035.py	/^t = 4$/;"	kind:variable	line:41
+test.py	../LeetcodePython/test.py	1;"	kind:file	line:1
