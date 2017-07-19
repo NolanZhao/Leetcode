@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-using  namespace std;
+using namespace std;
 
 struct TreeNode {
     int val;
@@ -10,23 +10,24 @@ struct TreeNode {
 };
 
 
-
-class Solution {
+class Solution{
 public:
-    TreeNode *sortedArrayToBST(vector<int> &num) {
-        return arrayToBST(num, 0, num.size()-1);
-    }
-    
-    TreeNode *arrayToBST(vector<int> &num, int start, int end){
-        if (start > end) return NULL;
-        int mid = start + ()
+    bool isBalanced(TreeNode *root){
+        return findDepth(root) == -1 ? false : true;
     }
 
+    int findDepth(TreeNode *root){
+        if (!root) return 0;
 
+        int leftDepth = findDepth(root->left);
+        if (leftDepth == -1) return -1;
 
+        int rightDepth = findDepth(root->right);
+        if (rightDepth == -1) return -1;
 
+        if (abs(leftDepth - rightDepth) > 1) return -1;
 
+        return max(leftDepth, rightDepth) + 1;
 
-}
-
-
+    }
+};
