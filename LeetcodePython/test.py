@@ -1,25 +1,14 @@
-# Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+class MinStack:
+    def __init__(self):
+        self.stack = []
+        self.minStack = []
+
+    def push(self, x):
+        self.stack.append(x)
+        if len(self.minStack) and x == self.minStack[-1][0]:
+            self.minStack[-1] = (x, self.minStack[-1][1] + 1)
 
 
-class Solution(object):
-    def maxDepth(self, root):
-        if root is None:
-            return 0
-        else:
-            return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1                          
-        
-    
-    def isBalanced(self, root):
-        """
-        :type root: TreeNode
-        :rtype: bool
-        """
-        if abs(self.maxDepth(root.left) - self.maxDepth(root.right)) > 1:
-            return False
-        else:
-            return self.isBalanced(root.left) and self.isBalanced(root.right)
+
+
+

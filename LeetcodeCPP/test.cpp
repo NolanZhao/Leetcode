@@ -1,33 +1,14 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-
-
 class Solution{
 public:
-    bool isBalanced(TreeNode *root){
-        return findDepth(root) == -1 ? false : true;
-    }
-
-    int findDepth(TreeNode *root){
-        if (!root) return 0;
-
-        int leftDepth = findDepth(root->left);
-        if (leftDepth == -1) return -1;
-
-        int rightDepth = findDepth(root->right);
-        if (rightDepth == -1) return -1;
-
-        if (abs(leftDepth - rightDepth) > 1) return -1;
-
-        return max(leftDepth, rightDepth) + 1;
-
+    vector<int> plusOne(vector<int> &digits) {
+        int carry = 1;
+        vector<int> res(digits.size(), 0);
+        for (int i = digits.size() - 1; i >= 0; i--) {
+            carry += digits[i];
+            res[i] = carry % 10;
+            carry /= 10;
+        }
+        if (carry) res.insert(res.begin(), 1);
+        return res;
     }
 };
