@@ -18,7 +18,7 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
-        if root == None:
+        if root is None:
             return True
         else:
             if abs(self.maxDepth(root.left) - self.maxDepth(root.right)) > 1:
